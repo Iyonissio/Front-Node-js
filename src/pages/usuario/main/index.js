@@ -27,7 +27,7 @@ export default class Main extends Component {
                     <h5>{usuario.nome}</h5>
                     <article>
                         <strong>{usuario.salario}</strong>
-                        <p><Link to={`/usuarios/${usuario.id}`}>Detalhes</Link></p>
+                        
                         <br />
                     </article>
                     
